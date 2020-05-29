@@ -64,7 +64,10 @@ def apply_changes(val):
     cv.imshow(window_name, clone)
 
 
-image_name = "input/infertile_a.png"
+#######################################################################
+#  Application starts here
+#######################################################################
+image_name = "input/infertile_a.png" # replace the sample image
 
 image = cv.imread(image_name)
 
